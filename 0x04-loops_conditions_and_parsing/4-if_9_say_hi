@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+
+message="Best School"
+counter=0
+
+while [ $counter -lt 10 ]
+do
+	echo "$message"
+	if [ $counter == 8 ]
+	then
+		echo "Hi"
+	fi
+	counter=$(( counter + 1 ))
+done
