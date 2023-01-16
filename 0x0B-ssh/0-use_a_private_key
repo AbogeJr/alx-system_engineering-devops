@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # use ssh to connect to a server using a private key with the user ubuntu
-ssh-copy-id -i ~/.ssh/school ubuntu@54.236.27.204
-ssh -i ~/.ssh/school ubuntu@54.236.27.204
+ssh-copy-id -i ~/.ssh/school ubuntu@54.237.227.32
+ssh -i ~/.ssh/school ubuntu@54.237.227.32
